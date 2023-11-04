@@ -1,0 +1,28 @@
+*{
+    border: 1px solid aqua;
+    margin: 0;
+}
+
+.menu {
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba(secondary, 0.95));
+}
+
+.nav-container {
+    display: ;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 8px 0 8px;
+}
+
+.nav-menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-menu-icon {
+    display: none;
+}
+
+
+
