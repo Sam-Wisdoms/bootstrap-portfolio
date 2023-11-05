@@ -36,6 +36,22 @@ li {
     height: 100%; 
 }
 
+.display-3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects {
+    position: relative;
+    padding: 1rem 0;
+
+    &__projects{
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+
+   
+}
+
 
 /*.menu {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba(secondary, 0.95));
