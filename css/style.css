@@ -52,6 +52,33 @@ li {
    
 }
 
+.footer {
+    padding: 1rem;
+    background-color: aqua;
+}
+
+.contact-box {
+    position: relative;
+
+    &__icon {
+        width: 4rem;
+        stroke: primary;
+    }
+
+    &__info {
+        padding: 0.4rem;
+        font-weight: 600;
+    }
+
+    &--title {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    &--subtitle {
+        font-size: 1.2rem;
+    }
+}
 
 /*.menu {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba(secondary, 0.95));
