@@ -1,28 +1,64 @@
-*{
-    border: 1px solid aqua;
-    margin: 0;
+.navbar {
+    border: 3px solid aqua;
+    margin: 0px;
 }
 
-.menu {
+li {
+    color: white !important;
+    text-transform: capitalize
+    }
+
+    .btn-rounded {
+        position:relative;
+        font-weight: 500;
+        margin: 0;
+    }
+
+.display-2 {
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.description {
+    font-size: 1.4rem;
+    display: block;
+    margin-top: 1.2rem;
+}
+
+
+.intro {
+    display: block;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    padding: 6rem 0 0 0;
+    width: 100%;
+    height: 100%; 
+}
+
+
+/*.menu {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba(secondary, 0.95));
-}
+} 
 
-.nav-container {
+ .nav-container {
     display: ;
     flex-direction: row;
     justify-content: space-between;
     height: 10vh;
     padding: 0 8px 0 8px;
-}
+} 
 
-.nav-menu-container {
+ .nav-menu-container {
     display: flex;
     justify-content: space-between;
-}
+} 
 
 .custom-menu-icon {
     display: none;
-}
+} 
+*/
+
 
 
 
