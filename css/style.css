@@ -1,3 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container-fluid {
+    margin: 0 15%;
+    background-color: aqua;
+    font-weight: 1000;
+}
+
 .navbar {
     border: 3px solid aqua;
     margin: 0px;
@@ -29,7 +42,7 @@ li {
 
 .intro {
     display: block;
-    font-weight: 600;
+    font-weight: 400;
     font-family: "poppins", sans-serif;
     padding: 6rem 0 0 0;
     width: 100%;
@@ -79,6 +92,21 @@ li {
         font-size: 1.2rem;
     }
 }
+
+.awesome-design {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.mid-text {
+    padding-left: 30px;
+}
+
+
+
+
+
 
 /*.menu {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba(secondary, 0.95));
