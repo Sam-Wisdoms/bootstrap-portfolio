@@ -68,22 +68,19 @@ li {
 
 }
 
-.wrapper {
-    border: 2px solid red;
-    display: flex;
-    background-color: red;
-  
+.card-title {
+    font-weight: 700;
 }
 
 .project-card {
     display: flex;
-    background-color: blue;
     padding: 2px;
 }
 
 .footer {
     padding: 1rem;
     background-color: aqua;
+    margin-top: 20px;
 }
 
 .contact-box {

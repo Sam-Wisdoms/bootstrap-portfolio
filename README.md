@@ -11,4 +11,4 @@ Project Repository Link: https://github.com/Sam-Wisdoms/samwisdoms-portfolio
 
 Deployed Project Link: https://sam-wisdoms.github.io/bootstrap-portfolio/
 
-Credits: Mila Hose (Instructor), Steve Calla (TA).
+Credits: Mila Hose (Instructor), Marcin Kasperkie (TA), Mark Ustby (TA).
