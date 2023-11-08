@@ -1,3 +1,4 @@
+/* This section applies to the entire page. */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 
 }
 
+/* This section is the nav bar style section. */
 .container-fluid {
     margin: 0 15%;
     background-color: aqua;
@@ -27,6 +29,8 @@ li {
     margin: 0;
 }
 
+/* This section is the about me section */
+
 .about-me {
     margin-top: 20px;
 }
@@ -34,6 +38,19 @@ li {
 .display-2 {
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
+
+}
+
+/* This section starts the projects styling section */
+
+.projects {
+    position: relative;
+    padding: 1rem 0;
+
+    &__projects {
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
 
 }
 
@@ -57,16 +74,6 @@ li {
     font-family: 'Poppins', sans-serif;
 }
 
-.projects {
-    position: relative;
-    padding: 1rem 0;
-
-    &__projects {
-        padding: 1rem;
-        margin-top: 1.5rem;
-    }
-
-}
 
 .card-title {
     font-weight: 700;
@@ -77,6 +84,20 @@ li {
     padding: 2px;
 }
 
+
+.awesome-design {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.mid-text {
+    padding-left: 30px;
+}
+
+
+
+/* This section starts the footer style section. */
 .footer {
     padding: 1rem;
     background-color: aqua;
@@ -105,40 +126,3 @@ li {
         font-size: 1.2rem;
     }
 }
-
-.awesome-design {
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-
-.mid-text {
-    padding-left: 30px;
-}
-
-
-
-
-
-
-/*.menu {
-    background: linear-gradient(to right, rgba($primary, 0.95), rgba(secondary, 0.95));
-} 
-
- .nav-container {
-    display: ;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 10vh;
-    padding: 0 8px 0 8px;
-} 
-
- .nav-menu-container {
-    display: flex;
-    justify-content: space-between;
-} 
-
-.custom-menu-icon {
-    display: none;
-} 
-*/
